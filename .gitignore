@@ -17,6 +17,7 @@ aoc2021.iml
 
 # Advent of Code-specific
 */input
+*/example
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
