@@ -2,26 +2,12 @@ package main
 
 import (
 	"fmt"
-	"log"
-	"os"
 	"strconv"
-	"bufio"
+	"github.com/joepeding/aoc2021/common"
 )
 
 func main() {
-	// Open file
-	file, err := os.Open("./d1/input")
-	defer file.Close()
-
-	// Create scanner
-	if err != nil { log.Fatalf("failed to open") }
-	scanner := bufio.NewScanner(file)
-	scanner.Split(bufio.ScanLines)
-	var text []string
-	for scanner.Scan() {
-		text = append(text, scanner.Text())
-	}
-
+	var text = common.ReadLines("./d1/input")
 	fmt.Println("Part one: ", partOne(text))
 	fmt.Println("Part one: ", partTwo(text))
 }
