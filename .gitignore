@@ -13,11 +13,11 @@
 
 # IntelliJ
 .idea
-aoc2021.iml
+aoc_go.iml
 
 # Advent of Code-specific
-*/input
-*/example
+**/input
+**/example
 
 # Dependency directories (remove the comment below to include it)
 # vendor/

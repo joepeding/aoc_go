@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/joepeding/aoc2021/common"
+	"github.com/joepeding/aoc_go/common"
 	"math"
 	"strconv"
 	"strings"

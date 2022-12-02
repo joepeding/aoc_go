@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"strconv"
-	"github.com/joepeding/aoc2021/common"
+	"github.com/joepeding/aoc_go/common"
 )
 
 func main() {

@@ -1,3 +1,3 @@
-module github.com/joepeding/aoc2021
+module github.com/joepeding/aoc_go
 
 go 1.15

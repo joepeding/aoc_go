@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/joepeding/aoc2021/common"
+	"github.com/joepeding/aoc_go/common"
 	"strconv"
 	"strings"
 )
@@ -13,7 +13,7 @@ type coord struct {
 }
 
 func main() {
-	var text = common.ReadLines("./d9/input")
+	var text = common.ReadLines("./2021/d9/input")
 	observations := parseInput(text)
 	fmt.Println(observations)
 	fmt.Println("Part one: ", partOne(observations))
