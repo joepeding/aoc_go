@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	var text = common.ReadLines("./d6/input")[0]
+	var text = common.ReadLines("./2021/d6/input")[0]
 	fishes := parseInput(strings.Split(text, ","))
 	fmt.Println(fishes)
 	fmt.Println("Part one: ", partOne(fishes))

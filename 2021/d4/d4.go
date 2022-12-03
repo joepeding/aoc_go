@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	var text = common.ReadLines("./d4/input")
+	var text = common.ReadLines("./2021/d4/input")
 	seq, boards := parseInput(text)
 	fmt.Println(seq, boards)
 	fmt.Println("Part one: ", partOne(seq, boards))

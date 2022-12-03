@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"strconv"
 	"github.com/joepeding/aoc_go/common"
+	"strconv"
 )
 
 func main() {
-	var text = common.ReadLines("./d1/input")
+	var text = common.ReadLines("./2021/d1/input")
 	fmt.Println("Part one: ", partOne(text))
 	fmt.Println("Part one: ", partTwo(text))
 }

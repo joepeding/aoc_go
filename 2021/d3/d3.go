@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	var text = common.ReadLines("./d3/input")
+	var text = common.ReadLines("./2021/d3/input")
 	fmt.Println("Part one: ", partOne(text))
 	fmt.Println("Part two: ", partTwo 	(text))
 }

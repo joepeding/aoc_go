@@ -19,7 +19,7 @@ type line struct {
 }
 
 func main() {
-	var text = common.ReadLines("./d5/input")
+	var text = common.ReadLines("./2021/d5/input")
 	lines, bottomright := parseInput(text)
 	fmt.Println(lines)
 	fmt.Println(bottomright)

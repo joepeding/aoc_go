@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	var text = common.ReadLines("./d7/input")[0]
+	var text = common.ReadLines("./2021/d7/input")[0]
 	positions := parseInput(text)
 	//fmt.Println(positions)
 	fmt.Println("Part one: ", partOne(positions))

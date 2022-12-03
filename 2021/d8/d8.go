@@ -27,7 +27,7 @@ type mapping struct {
 }
 
 func main() {
-	var text = common.ReadLines("./d8/input")
+	var text = common.ReadLines("./2021/d8/input")
 	observations := parseInput(text)
 	fmt.Println("Part one: ", partOne(observations))
 	fmt.Println("Part two: ", partTwo(observations))
